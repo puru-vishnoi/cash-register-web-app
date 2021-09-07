@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cash Register Manager</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <small>
+                <span>Cash Register Manager</span>
+            </small>
+
+        </div>
+        
+    </header>
+
+    <main>
+        <p class="content">Enter the Bill Amount and Cash Given by the customer and know about the minimum number of notes
+            to be returned to customer.</p>
+
+        <div id="bill">
+            <label for="bill-amount">Bill Amount:</label>
+            <input id="bill-amount" type="number" />
+        </div>
+
+        <button class="btn" id="next-btn">Next</button>
+
+        <div id="cash">
+            <label for="cash-given">Cash Given:</label>
+            <input id="cash-given" type="number" />
+        </div>
+
+        <button class="btn" id="check-btn">Check</button>
+
+        <p class="return-change">Return Amount: <span id="change"></span> </p>
+
+        <p id="message"></p>
+
+        <table class="return-table">
+            <tr>
+                <th>No. of Notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Notes Available</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer class="footer">
+       
+        <div class="footer-header">
+            <h3> connect with me </h3>
+            <ul class="list-no-bullet">
+
+            <li class="list-item-inline"><a  href="mailto:vishnoi.puru24@gmail.com" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/gmail-new.png"/></a></li>
+
+            <li class="list-item-inline"><a href="https://github.com/puru-vishnoi" target="_blank">
+                <img src="https://img.icons8.com/material-sharp/48/000000/github.png"/></a></li>
+
+            <li class="list-item-inline"><a href="https://twitter.com/PV__123" target="_blank">
+                <img src="https://img.icons8.com/fluency/48/000000/twitter.png"/></a></li>
+
+            <li class="list-item-inline"><a href="htthttps://www.linkedin.com/in/puru-vishnoi-8b312a110/" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a></li>
+        </ul>
+        
+    </footer>
+</body>
+<script src="/app.js"></script>
+
+</html>

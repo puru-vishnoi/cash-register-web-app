@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+body header {
+  margin-top: 5px;
+}
+
+header div {
+  padding: 20px;
+}
+
+small {
+  padding: 12px;
+  font-size: 20px;
+  background-color: #fff;
+  color: rgb(201, 73, 73);
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+
+.content {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+  margin: 20px;
+}
+
+#bill-amount {
+  border: 2px solid black;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#cash {
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+#cash-given {
+  border: 2px solid black;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.btn {
+  margin: 20px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#message {
+  font-size: 20px;
+  color: red;
+}
+
+.return-change {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+#change {
+  color: black;
+}
+
+.return-table {
+  margin: 2px;
+}
+
+.return-table td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 1px;
+}
+
+.no-of-notes {
+  background-color: rgb(191, 195, 212);
+}
+
+.list-item-inline {
+  display: inline-block;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 14px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.footer ul {
+  padding: 8px;
+}
+
+.footer ul li {
+  padding: 8px;
+}
+
+.footer .link {
+  color: white;
+}
